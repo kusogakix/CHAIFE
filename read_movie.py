@@ -12,3 +12,8 @@ for i in range(frame_count):
     ret, frame = video.read()
     # 類似度を計算する関数呼び出し
     # 該当するフレームならリストに保存
+
+
+import ffmpeg
+
+video

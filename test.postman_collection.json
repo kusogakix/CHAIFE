@@ -24,7 +24,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "aho.com",
+					"host": [
+						"aho",
+						"com"
+					]
 				}
 			},
 			"response": []
@@ -55,10 +59,10 @@
 					}
 				},
 				"url": {
-					"raw": "unko.com",
+					"raw": "unko.comcom",
 					"host": [
 						"unko",
-						"com"
+						"comcom"
 					]
 				}
 			},

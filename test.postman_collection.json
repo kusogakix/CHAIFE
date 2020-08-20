@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "905798bd-de5f-42a4-bb66-c864896c9e50",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "fde55556-39db-44e1-8782-b985f6a1753a",
+						"exec": [
+							"unko\r",
+							"tinko"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4735ccba-1f01-4708-9bae-320f3da87975",
+						"exec": [
+							"unko\r",
+							"unko"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "unko1\r\nunko2\r\nunko3",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "unko.com",
+					"host": [
+						"unko",
+						"com"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "51822396-c2df-4e8e-a175-9cf4b5b87eb2",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "c5ba279c-a473-4df2-a49e-6e311729254c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

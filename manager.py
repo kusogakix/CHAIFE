@@ -7,6 +7,7 @@ class Manager:
 
     def main(self):
         # 画像処理関数の呼び出し
+        
         pass
 
 
